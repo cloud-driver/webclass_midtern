@@ -1,0 +1,3 @@
+GitHub Repository URL: https://github.com/cloud-driver/webclass_midtern
+GitHub Pages URL: https://esys.hasaki.idv.tw/webclass_midtern/
+Code Explanation Report URL: https://drive.google.com/file/d/1XuCf77au6zPq6GmZWn1Pvs53hZPFIjQL/view
