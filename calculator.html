@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Barista Guide | Brew Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="top">
+        <h1>Home Barista Guide</h1>
+    </div>
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="methods.html">Brewing Methods</a></li>
+        <li><a href="beans.html">Coffee Beans</a></li>
+        <li><a class="current" href="calculator.html">Brew Calculator</a></li>
+        <li><a href="quiz.html">Coffee Quiz</a></li>
+    </ul>
+
+    <div class="content">
+        <h2>Brew Calculator</h2>
+        <p>Enter how much coffee you want to use and choose a brewing method.
+           The calculator will tell you how much water you need.</p>
+
+        <div class="tool-box">
+            <p>
+                Coffee (grams):<br>
+                <input type="number" id="coffeeInput" placeholder="e.g. 15">
+            </p>
+            <p>
+                Brewing method:<br>
+                <select id="methodSelect">
+                    <option value="16">Pour-Over (1 : 16)</option>
+                    <option value="14">French Press (1 : 14)</option>
+                    <option value="7">Moka Pot (1 : 7)</option>
+                    <option value="10">Cold Brew (1 : 10)</option>
+                </select>
+            </p>
+            <button onclick="calculateWater()">Calculate</button>
+            <button class="gray" onclick="resetCalculator()">Reset</button>
+
+            <!-- JavaScript will write the answer here -->
+            <div id="result" class="result"></div>
+        </div>
+
+        <h3>How does it work?</h3>
+        <p>A brew ratio such as <strong>1 : 16</strong> means 1 gram of coffee for every 16 grams of water.
+           So the water you need = coffee &times; 16. (1 gram of water is about 1 ml.)</p>
+        <p>See the recipe for each method on the <a href="methods.html#compare">Brewing Methods</a> page.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Home Barista Guide</p>
+        <p><a href="#top">Back to Top</a></p>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

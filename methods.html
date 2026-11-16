@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Barista Guide | Brewing Methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="top">
+        <h1>Home Barista Guide</h1>
+    </div>
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current" href="methods.html">Brewing Methods</a></li>
+        <li><a href="beans.html">Coffee Beans</a></li>
+        <li><a href="calculator.html">Brew Calculator</a></li>
+        <li><a href="quiz.html">Coffee Quiz</a></li>
+    </ul>
+
+    <div class="content">
+        <h2>Brewing Methods</h2>
+        <p>Each brewing method brings out a different side of your coffee.</p>
+
+        <!-- Internal links to sections on this page -->
+        <ul class="jump-links">
+            <li><a href="#pour-over">Pour-Over</a></li>
+            <li><a href="#french-press">French Press</a></li>
+            <li><a href="#moka-pot">Moka Pot</a></li>
+            <li><a href="#cold-brew">Cold Brew</a></li>
+            <li><a href="#compare">Quick Comparison Table</a></li>
+        </ul>
+
+        <!-- Pour-over: image floats to the right -->
+        <div class="method clearfix" id="pour-over">
+            <img class="float-right" src="images/pourover.jpg" alt="A pour-over dripper sitting on a glass coffee server">
+            <h3>1. Pour-Over</h3>
+            <p>Pour-over is a manual method. You control how fast the water goes through
+               the coffee, so it is a great way to taste the <em>clean and bright</em> flavors of the beans.</p>
+            <ol>
+                <li>Heat water to about 92&ndash;96&deg;C.</li>
+                <li>Rinse the paper filter with hot water and throw that water away.</li>
+                <li>Add 15 g of medium-fine ground coffee.</li>
+                <li>Pour 30 g of water and wait 30 seconds. This is called the <strong>bloom</strong>.</li>
+                <li>Slowly pour in circles until the total water reaches 240 g.</li>
+                <li>Wait until all the water drips through (about 3 minutes in total).</li>
+            </ol>
+        </div>
+
+        <!-- French press: image floats to the left -->
+        <div class="method clearfix" id="french-press">
+            <img class="float-left" src="images/frenchpress.jpg" alt="A glass French press with a metal plunger">
+            <h3>2. French Press</h3>
+            <p>The French press is the easiest method for beginners. The metal filter lets the coffee
+               oils pass through, so the coffee feels <em>rich and heavy</em>.</p>
+            <ol>
+                <li>Add 18 g of coarse ground coffee to the press.</li>
+                <li>Pour in 250 g of hot water (about 94&deg;C).</li>
+                <li>Put the lid on and wait 4 minutes.</li>
+                <li>Press the plunger down slowly and serve right away.</li>
+            </ol>
+        </div>
+
+        <!-- Moka pot: image floats to the right -->
+        <div class="method clearfix" id="moka-pot">
+            <img class="float-right" src="images/mokapot.jpg" alt="A silver moka pot on a stove">
+            <h3>3. Moka Pot</h3>
+            <p>The moka pot pushes hot water up through the coffee with steam pressure.
+               The result is <strong>strong</strong> coffee that is good for making lattes at home.</p>
+            <ol>
+                <li>Fill the bottom chamber with hot water, just below the safety valve.</li>
+                <li>Fill the basket with fine ground coffee. Do not press it down.</li>
+                <li>Close the pot and put it on medium heat.</li>
+                <li>When you hear a gurgling sound, take it off the heat.</li>
+            </ol>
+        </div>
+
+        <!-- Cold brew: image floats to the left -->
+        <div class="method clearfix" id="cold-brew">
+            <img class="float-left" src="images/coldbrew.jpg" alt="A glass jar of cold brew coffee with ice cubes">
+            <h3>4. Cold Brew</h3>
+            <p>Cold brew needs no hot water at all, only time. It is perfect for hot summer days
+               in Taiwan, and you can make a big jar for the whole week.</p>
+            <ol>
+                <li>Mix 100 g of coarse ground coffee with 1000 g of cold water in a jar.</li>
+                <li>Stir, cover, and keep it in the fridge for 12&ndash;18 hours.</li>
+                <li>Filter out the coffee grounds.</li>
+                <li>Serve with ice. Add water or milk if it is too strong.</li>
+            </ol>
+        </div>
+
+        <!-- Comparison table -->
+        <h2 id="compare">Quick Comparison Table</h2>
+        <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Method</th>
+                    <th colspan="3">Basic Recipe</th>
+                    <th rowspan="2">Taste</th>
+                </tr>
+                <tr>
+                    <th>Grind Size</th>
+                    <th>Coffee : Water</th>
+                    <th>Brew Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Pour-Over</th>
+                    <td>Medium-fine</td>
+                    <td>1 : 16</td>
+                    <td>About 3 minutes</td>
+                    <td>Clean, bright</td>
+                </tr>
+                <tr>
+                    <th>French Press</th>
+                    <td>Coarse</td>
+                    <td>1 : 14</td>
+                    <td>4 minutes</td>
+                    <td>Rich, full-bodied</td>
+                </tr>
+                <tr>
+                    <th>Moka Pot</th>
+                    <td>Fine</td>
+                    <td>1 : 7</td>
+                    <td>About 5 minutes</td>
+                    <td>Strong, intense</td>
+                </tr>
+                <tr>
+                    <th>Cold Brew</th>
+                    <td>Coarse</td>
+                    <td>1 : 10</td>
+                    <td>12&ndash;18 hours</td>
+                    <td>Smooth, sweet</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <p>Not sure how much water to use? Try our <a href="calculator.html">Brew Calculator</a>.</p>
+        <p>Read more about the <a href="https://en.wikipedia.org/wiki/French_press" target="_blank">French press on Wikipedia</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Home Barista Guide</p>
+        <p><a href="#top">Back to Top</a></p>
+    </div>
+</body>
+</html>

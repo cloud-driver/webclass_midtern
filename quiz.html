@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Barista Guide | Coffee Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="top">
+        <h1>Home Barista Guide</h1>
+    </div>
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="methods.html">Brewing Methods</a></li>
+        <li><a href="beans.html">Coffee Beans</a></li>
+        <li><a href="calculator.html">Brew Calculator</a></li>
+        <li><a class="current" href="quiz.html">Coffee Quiz</a></li>
+    </ul>
+
+    <div class="content">
+        <h2>Coffee Quiz</h2>
+        <p>Test your coffee knowledge in five questions.</p>
+
+        <div class="tool-box">
+            <p>
+                1. Which method needs <strong>no hot water</strong>?<br>
+                <select id="q1">
+                    <option value="">-- choose an answer --</option>
+                    <option value="a">Pour-Over</option>
+                    <option value="b">Moka Pot</option>
+                    <option value="c">Cold Brew</option>
+                </select>
+                <span id="feedback1"></span>
+            </p>
+            <p>
+                2. What grind size is best for a French press?<br>
+                <select id="q2">
+                    <option value="">-- choose an answer --</option>
+                    <option value="a">Coarse</option>
+                    <option value="b">Very fine</option>
+                    <option value="c">Medium-fine</option>
+                </select>
+                <span id="feedback2"></span>
+            </p>
+            <p>
+                3. Which roast level usually has the <strong>highest acidity</strong>?<br>
+                <select id="q3">
+                    <option value="">-- choose an answer --</option>
+                    <option value="a">Dark roast</option>
+                    <option value="b">Light roast</option>
+                    <option value="c">Medium roast</option>
+                </select>
+                <span id="feedback3"></span>
+            </p>
+            <p>
+                4. With a 1 : 16 ratio, how much water do you need for 15 g of coffee?<br>
+                <select id="q4">
+                    <option value="">-- choose an answer --</option>
+                    <option value="a">160 g</option>
+                    <option value="b">240 g</option>
+                    <option value="c">300 g</option>
+                </select>
+                <span id="feedback4"></span>
+            </p>
+            <p>
+                5. What is the best way to keep coffee beans fresh?<br>
+                <select id="q5">
+                    <option value="">-- choose an answer --</option>
+                    <option value="a">Grind them all at once and leave the bag open</option>
+                    <option value="b">Keep them next to a sunny window</option>
+                    <option value="c">Keep whole beans in an airtight container</option>
+                </select>
+                <span id="feedback5"></span>
+            </p>
+
+            <button onclick="checkQuiz()">Check My Answers</button>
+            <button class="gray" onclick="resetQuiz()">Try Again</button>
+
+            <!-- JavaScript will write the score here -->
+            <div id="score" class="result"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Home Barista Guide</p>
+        <p><a href="#top">Back to Top</a></p>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

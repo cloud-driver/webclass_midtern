@@ -1,0 +1,29 @@
+Image sources
+
+hero.jpg
+https://unsplash.com/photos/a-cup-of-coffee-surrounded-by-coffee-beans-G4Zf0ThPDH4
+
+pourover.jpg
+https://www.directoalpaladar.com/cultura-gastronomica/desperdicias-buen-cafe-al-no-extraer-todo-sabor-este-barista-explica-errores-comunes-aficionados
+https://i.blogs.es/472861/hario/840_560.jpeg
+
+frenchpress.jpg
+https://www.nonocafe.net/inicio/blog/metodos-de-preparaci%C3%B3n-del-caf%C3%A9/
+
+mokapot.jpg
+https://www.pickpik.com/blur-close-up-coffee-maker-cookware-focus-heat-104771
+https://i1.pickpik.com/photos/577/518/512/blur-close-up-coffee-maker-cookware-fc72b4999431abf34b18858e07f7fbeb.jpg
+
+coldbrew.jpg
+https://buenazo.pe/tecnicas-y-tips/2021/01/06/como-preparar-cold-brew-casa-268
+https://imgmedia.buenazo.pe/1200x660/buenazo/original/2021/01/06/5ff66b419e5f9938d131c56d.jpg
+
+light-roast.jpg / medium-roast.jpg / dark-roast.jpg
+https://thebeancoffeecompany.com/pages/coffee-buying-center?view=coffee-roast-guide
+https://cdn.shopify.com/s/files/1/0127/7984/7738/files/tbcc-guide-roast-refresh-light-beans.png?v=1789681650
+https://cdn.shopify.com/s/files/1/0127/7984/7738/files/tbcc-guide-roast-refresh-medium-beans.png?v=1789681658
+https://cdn.shopify.com/s/files/1/0127/7984/7738/files/tbcc-guide-roast-refresh-dark-beans.png?v=1789681666
+
+Downloaded 2026-11-16. Photos are stored locally for offline use.
+Brewing photographs were cropped to 3:2; roast photographs stay square.
+The hero photo is placed on a dark background with a softened edge.
